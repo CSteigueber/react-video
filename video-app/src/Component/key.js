@@ -1,2 +1,0 @@
-//secret
-const key="sqdjvcsfjdnvHello";
