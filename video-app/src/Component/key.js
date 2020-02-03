@@ -1,1 +1,2 @@
 //secret
+const key="sqdjvcsfjdnvHello";
