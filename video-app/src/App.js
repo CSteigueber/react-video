@@ -11,8 +11,8 @@ const App = () => {
   const url = `https://api.themoviedb.org/3/movie/now_playing?api_key=${Key}&language=en-US`;
     const [movies, setMovie] = useState([]);
     useEffect(() => {
-      axios.get(url).then(json => setMovie(json.data.results));
-    });
+    axios.get(url).then(json => setMovie(json.data.results));
+    }, []);
 
     const search = async() =>{
       let str= document.getElementById("search").value;
